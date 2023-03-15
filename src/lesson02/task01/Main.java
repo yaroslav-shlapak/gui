@@ -1,4 +1,5 @@
-package lesson02;
+package lesson02.task01;
+
 /*
 Define an interface TwoStringsOper declaring a function apply which takes two
 strings and returns a string. Then, define four classes implementing this interface,
@@ -15,12 +16,8 @@ JohnMary
 MJ
 Mary loves John
  */
-public interface TwoStringsOper {
 
-    boolean apply(String mary, String john);
-}
-
-class Some {
+public class Main {
     public static void main(String[] args) {
         TwoStringsOper[] a = {
                 new Concat(), new ConcatRev(),
