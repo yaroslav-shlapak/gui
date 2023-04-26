@@ -1,4 +1,4 @@
-package lessono07.task02.DiffLettWords;
+package lesson07.task02.DiffLettWords;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,9 +8,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import static java.util.stream.Collectors.mapping;
-import static java.util.stream.Collectors.toSet;
 
 /*
 Write a program that reads a text (for example, of a book) from a file and using one

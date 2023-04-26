@@ -1,14 +1,11 @@
-package lessono07.task01;
+package lesson07.task01;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
-import static java.nio.charset.StandardCharsets.UTF_8;
 
 /*
 Write a program which reads a file containing an unknown number of lines which
