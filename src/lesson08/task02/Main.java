@@ -1,7 +1,5 @@
 package lesson08.task02;
 
-import lesson07.task01.Student;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -9,8 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/*
-Write a program described below:
+
+/*Write a program described below:
 • The program creates several threads passing to their constructors consecutive
 letters; each thread prints from time to time its letter (the time interval between
 printing could be a random number of milliseconds from the interval [100, 1000]).
@@ -42,8 +40,8 @@ Thread b exits
 Thread d exits
 Thread a exits
 Thread e exits
-Thread c exits
- */
+Thread c exits*/
+
 public class Main {
     public static void main(String... args) {
 
